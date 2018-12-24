@@ -1,0 +1,24 @@
+{
+  "name": "walt-react-example",
+  "version": "1.0.0",
+  "description": "Describe walt-react-example here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "nwb": "0.23.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
