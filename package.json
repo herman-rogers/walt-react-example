@@ -7,6 +7,7 @@
     "build": "nwb build-react-app",
     "clean": "nwb clean-app",
     "start": "nwb serve-react-app",
+    "linter:fix": "prettier --write '{,!(node_modules|.git)/**/}*.{js,json,jsx,md}'",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
@@ -16,7 +17,9 @@
     "react-dom": "^16.7.0"
   },
   "devDependencies": {
-    "nwb": "0.23.x"
+    "nwb": "0.23.x",
+    "walt-compiler": "^0.20.0",
+    "walt-loader": "^1.1.11"
   },
   "author": "",
   "license": "MIT",
